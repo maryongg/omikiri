@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ホーム</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>進捗状況</h1>
+        <p>現在のあなたの婚活状況です。</p>
+        <div>
+            <div id="mensCount">進行中メンズ: 読み込み中...</div>
+            <div id="omikiriCount">お見切り: 読み込み中...</div>
+        </div>
+        
+    </div>
+    <footer>
+        <div class="footer-container">
+            <a href="home.html"><img src="Home.png" alt="Home"></a>
+            <a href="new.html"><img src="Plus.png" alt="Plus"></a>
+            <a href="mensList.html"><img src="Mens.png" alt="Mens"></a>
+            <a href="omikiriList.html"><img src="Trash.png" alt="Trash"></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+        // new.htmlにおけるデータ保存の例
+        function saveData() {
+            const data = document.getElementById('inputField').value;
+            localStorage.setItem('mensData', data);
+        }
+    </script>
+</body>
+</html>
+</html>

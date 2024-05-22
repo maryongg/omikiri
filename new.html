@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新規登録</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>メンズ登録</h1>
+        <form id="registerForm">
+            <input type="text" placeholder="名前" required>
+            <input type="text" placeholder="ふりがな" required>
+            <input type="text" placeholder="ニックネーム" required>
+            <select id="income" required>
+                <option value="200万円以下">200万円以下</option>
+                <option value="200〜400万円">200〜400万円</option>
+                <option value="400〜600万円">400〜600万円</option>
+                <option value="600〜800万円">600〜800万円</option>
+                <option value="800〜1000万円">800〜1000万円</option>
+                <option value="1000万円〜2000万円">1000万円〜2000万</option>
+                <option value="2000万円〜3000万円">2000万円〜3000万円</option>
+                <option value="3000万円以上">3000万円以上</option>
+            </select>
+            <select id="meetingMethod" required>
+                <option value="マッチングアプリ">マッチングアプリ</option>
+                <option value="職場・学校">職場・学校</option>
+                <option value="紹介">紹介</option>
+                <option value="合コン">合コン</option>
+                <option value="その他">その他</option>
+            </select>
+            <select id="dateCost" required>
+                <option value="男性のおごり">男性のおごり</option>
+                <option value="男性が多めに払った">男性が多めに払った</option>
+                <option value="割り勘">割り勘</option>
+                <option value="女性が多めに払った">女性が多めに払った</option>
+                <option value="女性のおごり">女性のおごり</option>
+            </select>
+            <button type="submit">登録</button>
+        </form>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <a href="home.html"><img src="Home.png" alt="Home"></a>
+            <a href="new.html"><img src="Plus.png" alt="Plus"></a>
+            <a href="mensList.html"><img src="Mens.png" alt="Mens"></a>
+            <a href="omikiriList.html"><img src="Trash.png" alt="Trash"></a>
+        </div>
+    </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+</html>
